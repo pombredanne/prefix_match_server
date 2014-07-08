@@ -1,0 +1,14 @@
+Introduction:
+	The software is used for prefix-match, it supports chinese and english words.
+	Just like you search on Google, type "michael", 
+	the input box returns "michael jackson", "michael jordan" and so on.
+	what the results should be returned depends on your inputs.
+	Input data file format: 
+		string tab weight
+	You can build the index based on the input file, and only the index file will be used by the server.
+	
+Install:
+	The software depends on libevent.
+	You should install it on your machine before compiling this software.
+	As the default, The software thinks the path of libevent is /usr/local/event.
+	So if you install libevent in another path, you should modify the path in Makefile.
